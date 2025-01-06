@@ -18,4 +18,3 @@ runs:
     - name: Install dependencies
       if: steps.cache.outputs.cache-hit != 'true' || inputs.caching != 'true'
       run: npm ci
-      run: npm ci
